@@ -23,16 +23,6 @@ const mystery5 = [4, 9, 1, 3, 5, 4, 0, 4, 6, 3, 0, 7, 2, 5, 2, 3];
 const batch = [valid1, valid2, valid3, valid4, valid5, invalid1, invalid2, invalid3, invalid4, invalid5, mystery1, mystery2, mystery3, mystery4, mystery5];
 
 
-
-// Add your functions below:
-/*const validateCred = (array) => {
-  for (let i = array.length; i >= 0; i--) {
-    console.log(i)
-  }
-}*/
-
-const array1 = [4, 5, 3, 9, 6, 7, 7, 9, 0, 8, 0, 1, 6, 8, 0, 8]
-
 const validatedCred = (array) => {
   let total = 0
   let isValid;
@@ -113,5 +103,3 @@ const idInvalidCardCompanies = (array) => {
 const invalidCards = findInvalidCards(batch)
 
 console.log(idInvalidCardCompanies(invalidCards))
-
-const digitsArray = [{3: 'Amex'}, {4: 'Visa'}, {5: 'Mastercard'}, {6: 'Discover'}]
